@@ -13,6 +13,7 @@ driver.get('https://docs.google.com/forms/d/e/1FAIpQLSeVDgMbWcdbtpcAnjGBt3avEu4R
 time.sleep(2)
 
 name = "Ajay"
+#copy xpath from inspect>element>copy>copy xpath
 text = driver.find_element_by_xpath(
     '//*[@id="mG61Hd"]/div[2]/div/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div[1]/input'
 )
